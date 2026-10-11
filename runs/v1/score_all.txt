@@ -1,0 +1,118 @@
+
+== haiku-r1 (anthropic/claude-haiku-5.5)
+  route_accuracy: 0.955
+  fully_correct: 20
+  unsafe_approvals: []
+  wrong_tier_placements: []
+  missed_escalations: []
+  over_escalations: ['APP-1010']
+  flag_recall: 0.947
+  recommended_tier_accuracy: 1.0
+  drafts_correct: 10/11
+  stray_drafts: []
+  fallbacks: 0
+  tool_errors: 0
+  cost_usd: 0.0554
+  cost_per_app: 0.0025
+  median_latency_s: 12.045
+  tool_calls_per_app: 10.7
+  server_refusals: 3 [('APP-1003', "unknown flags ['existing_partner_account']; allowed: ['agent_incomplete', 'attribution_con"), ('APP-1009', "unknown flags ['screening_needs_review']; allowed: ['agent_incomplete', 'attribution_confl"), ('APP-1015', "unknown flags ['existing_partner_account']; allowed: ['agent_incomplete', 'attribution_con")]
+  ✗ APP-1005 Only public story is a 404: missing ['reference_unreachable']
+  ✗ APP-1010 6 of 14 certs expired, 8 active: route human_review≠approve; tier; no draft
+
+== haiku-r2 (anthropic/claude-haiku-5.5)
+  route_accuracy: 0.955
+  fully_correct: 21
+  unsafe_approvals: []
+  wrong_tier_placements: []
+  missed_escalations: []
+  over_escalations: ['APP-1010']
+  flag_recall: 1.0
+  recommended_tier_accuracy: 1.0
+  drafts_correct: 10/11
+  stray_drafts: []
+  fallbacks: 0
+  tool_errors: 0
+  cost_usd: 0.0553
+  cost_per_app: 0.0025
+  median_latency_s: 11.809999999999999
+  tool_calls_per_app: 10.7
+  server_refusals: 3 [('APP-1003', "unknown flags ['existing_partner_account']; allowed: ['agent_incomplete', 'attribution_con"), ('APP-1009', "unknown flags ['screening_needs_review']; allowed: ['agent_incomplete', 'attribution_confl"), ('APP-1015', "unknown flags ['existing_partner_account']; allowed: ['agent_incomplete', 'attribution_con")]
+  ✗ APP-1010 6 of 14 certs expired, 8 active: route human_review≠approve; tier; no draft
+
+== haiku-r3 (anthropic/claude-haiku-5.5)
+  route_accuracy: 1.0
+  fully_correct: 21
+  unsafe_approvals: []
+  wrong_tier_placements: []
+  missed_escalations: []
+  over_escalations: []
+  flag_recall: 0.947
+  recommended_tier_accuracy: 1.0
+  drafts_correct: 11/11
+  stray_drafts: []
+  fallbacks: 0
+  tool_errors: 0
+  cost_usd: 0.0555
+  cost_per_app: 0.0025
+  median_latency_s: 12.094999999999999
+  tool_calls_per_app: 10.7
+  server_refusals: 3 [('APP-1003', "unknown flags ['existing_partner_account']; allowed: ['agent_incomplete', 'attribution_con"), ('APP-1009', "unknown flags ['screening_needs_review']; allowed: ['agent_incomplete', 'attribution_confl"), ('APP-1015', "unknown flags ['existing_partner_account']; allowed: ['agent_incomplete', 'attribution_con")]
+  ✗ APP-1005 Only public story is a 404: missing ['reference_unreachable']
+
+== sonnet-r1 (anthropic/claude-sonnet-5.5)
+  route_accuracy: 1.0
+  fully_correct: 22
+  unsafe_approvals: []
+  wrong_tier_placements: []
+  missed_escalations: []
+  over_escalations: []
+  flag_recall: 1.0
+  recommended_tier_accuracy: 1.0
+  drafts_correct: 11/11
+  stray_drafts: []
+  fallbacks: 0
+  tool_errors: 0
+  cost_usd: 0.9915
+  cost_per_app: 0.0451
+  median_latency_s: 17.325
+  tool_calls_per_app: 10.7
+  server_refusals: 3 [('APP-1003', "unknown flags ['existing_partner_account']; allowed: ['agent_incomplete', 'attribution_con"), ('APP-1009', "unknown flags ['screening_needs_review']; allowed: ['agent_incomplete', 'attribution_confl"), ('APP-1015', "unknown flags ['existing_partner_account']; allowed: ['agent_incomplete', 'attribution_con")]
+
+== sonnet-r2 (anthropic/claude-sonnet-5.5)
+  route_accuracy: 1.0
+  fully_correct: 22
+  unsafe_approvals: []
+  wrong_tier_placements: []
+  missed_escalations: []
+  over_escalations: []
+  flag_recall: 1.0
+  recommended_tier_accuracy: 1.0
+  drafts_correct: 11/11
+  stray_drafts: []
+  fallbacks: 0
+  tool_errors: 0
+  cost_usd: 0.9639
+  cost_per_app: 0.0438
+  median_latency_s: 17.615000000000002
+  tool_calls_per_app: 10.8
+  server_refusals: 4 [('APP-1003', "unknown flags ['existing_partner_account']; allowed: ['agent_incomplete', 'attribution_con"), ('APP-1009', "unknown flags ['screening_needs_review']; allowed: ['agent_incomplete', 'attribution_confl"), ('APP-1015', "unknown flags ['existing_partner_account']; allowed: ['agent_incomplete', 'attribution_con"), ('APP-1018', "unknown flags ['later_duplicate_app_APP-1019']; allowed: ['agent_incomplete', 'attribution")]
+
+== sonnet-r3 (anthropic/claude-sonnet-5.5)
+  route_accuracy: 1.0
+  fully_correct: 22
+  unsafe_approvals: []
+  wrong_tier_placements: []
+  missed_escalations: []
+  over_escalations: []
+  flag_recall: 1.0
+  recommended_tier_accuracy: 1.0
+  drafts_correct: 11/11
+  stray_drafts: []
+  fallbacks: 0
+  tool_errors: 0
+  cost_usd: 0.9527
+  cost_per_app: 0.0433
+  median_latency_s: 17.655
+  tool_calls_per_app: 10.7
+  server_refusals: 3 [('APP-1003', "unknown flags ['existing_partner_account']; allowed: ['agent_incomplete', 'attribution_con"), ('APP-1009', "unknown flags ['screening_needs_review']; allowed: ['agent_incomplete', 'attribution_confl"), ('APP-1015', "unknown flags ['existing_partner_account']; allowed: ['agent_incomplete', 'attribution_con")]

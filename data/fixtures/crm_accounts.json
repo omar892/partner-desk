@@ -1,0 +1,57 @@
+{
+ "partners": [
+  {
+   "account_id": "PA-0042",
+   "name": "Ridgeline Advisory LLC",
+   "domain": "ridgelinepartners.example",
+   "type": "partner",
+   "tier": "Select",
+   "status": "active",
+   "since": "2026-05-14",
+   "owner": "M. Alvarez",
+   "source": "portal"
+  },
+  {
+   "account_id": "PA-0057",
+   "name": "Fernhill Group",
+   "domain": "fernhillgroup.example",
+   "type": "partner",
+   "tier": "Select",
+   "status": "active",
+   "since": "2026-04-02",
+   "owner": "D. Chen",
+   "source": "portal"
+  },
+  {
+   "account_id": "PA-0061",
+   "name": "Tessellate Partners",
+   "domain": "tessellate.example",
+   "type": "partner",
+   "tier": "Preferred",
+   "status": "active",
+   "since": "2026-03-30",
+   "owner": "M. Alvarez",
+   "source": "portal"
+  }
+ ],
+ "direct": [
+  {
+   "name": "Halverson Health",
+   "account_exec": "J. Park",
+   "segment": "Enterprise",
+   "stage": "Customer"
+  },
+  {
+   "name": "Crestview Logistics",
+   "account_exec": "R. Osei",
+   "segment": "Enterprise",
+   "stage": "Negotiation"
+  },
+  {
+   "name": "Summit Mutual",
+   "account_exec": "J. Park",
+   "segment": "Enterprise",
+   "stage": "Customer"
+  }
+ ]
+}

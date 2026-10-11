@@ -1,0 +1,12 @@
+{
+ "label": "haiku-r3",
+ "model": "anthropic/claude-haiku-5.5",
+ "backend": "openrouter",
+ "apps": 22,
+ "wall_s": 59.3,
+ "cost_usd": 0.0555,
+ "tool_calls": 236,
+ "tool_errors": 0,
+ "fallbacks": 0,
+ "median_latency_s": 12.16
+}

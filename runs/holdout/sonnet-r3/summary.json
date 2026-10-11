@@ -1,0 +1,13 @@
+{
+ "label": "holdout/sonnet-r3",
+ "set": "holdout",
+ "model": "anthropic/claude-sonnet-5.5",
+ "backend": "openrouter",
+ "apps": 10,
+ "wall_s": 34.6,
+ "cost_usd": 0.3773,
+ "tool_calls": 96,
+ "tool_errors": 0,
+ "fallbacks": 0,
+ "median_latency_s": 14.9
+}

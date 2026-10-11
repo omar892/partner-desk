@@ -1,0 +1,114 @@
+
+== holdout/sonnet-r1 (anthropic/claude-sonnet-5.5)
+  route_accuracy: 1.0
+  fully_correct: 10
+  unsafe_approvals: []
+  wrong_tier_placements: []
+  missed_escalations: []
+  over_escalations: []
+  flag_recall: 1.0
+  recommended_tier_accuracy: 1.0
+  drafts_correct: 4/4
+  stray_drafts: []
+  fallbacks: 0
+  tool_errors: 0
+  cost_usd: 0.4291
+  cost_per_app: 0.0429
+  median_latency_s: 13.045
+  tool_calls_per_app: 9.6
+  server_refusals: 0 []
+
+== holdout/sonnet-r2 (anthropic/claude-sonnet-5.5)
+  route_accuracy: 1.0
+  fully_correct: 10
+  unsafe_approvals: []
+  wrong_tier_placements: []
+  missed_escalations: []
+  over_escalations: []
+  flag_recall: 1.0
+  recommended_tier_accuracy: 1.0
+  drafts_correct: 4/4
+  stray_drafts: []
+  fallbacks: 0
+  tool_errors: 0
+  cost_usd: 0.376
+  cost_per_app: 0.0376
+  median_latency_s: 14.205
+  tool_calls_per_app: 9.6
+  server_refusals: 0 []
+
+== holdout/sonnet-r3 (anthropic/claude-sonnet-5.5)
+  route_accuracy: 1.0
+  fully_correct: 10
+  unsafe_approvals: []
+  wrong_tier_placements: []
+  missed_escalations: []
+  over_escalations: []
+  flag_recall: 1.0
+  recommended_tier_accuracy: 1.0
+  drafts_correct: 4/4
+  stray_drafts: []
+  fallbacks: 0
+  tool_errors: 0
+  cost_usd: 0.3773
+  cost_per_app: 0.0377
+  median_latency_s: 14.620000000000001
+  tool_calls_per_app: 9.6
+  server_refusals: 0 []
+
+== holdout/haiku-r1 (anthropic/claude-haiku-5.5)
+  route_accuracy: 1.0
+  fully_correct: 10
+  unsafe_approvals: []
+  wrong_tier_placements: []
+  missed_escalations: []
+  over_escalations: []
+  flag_recall: 1.0
+  recommended_tier_accuracy: 1.0
+  drafts_correct: 4/4
+  stray_drafts: []
+  fallbacks: 0
+  tool_errors: 0
+  cost_usd: 0.0244
+  cost_per_app: 0.0024
+  median_latency_s: 10.665
+  tool_calls_per_app: 9.7
+  server_refusals: 0 []
+
+== holdout/haiku-r2 (anthropic/claude-haiku-5.5)
+  route_accuracy: 1.0
+  fully_correct: 10
+  unsafe_approvals: []
+  wrong_tier_placements: []
+  missed_escalations: []
+  over_escalations: []
+  flag_recall: 1.0
+  recommended_tier_accuracy: 1.0
+  drafts_correct: 4/4
+  stray_drafts: []
+  fallbacks: 0
+  tool_errors: 0
+  cost_usd: 0.0229
+  cost_per_app: 0.0023
+  median_latency_s: 11.685
+  tool_calls_per_app: 9.6
+  server_refusals: 0 []
+
+== holdout/haiku-r3 (anthropic/claude-haiku-5.5)
+  route_accuracy: 1.0
+  fully_correct: 10
+  unsafe_approvals: []
+  wrong_tier_placements: []
+  missed_escalations: []
+  over_escalations: []
+  flag_recall: 1.0
+  recommended_tier_accuracy: 1.0
+  drafts_correct: 4/4
+  stray_drafts: []
+  fallbacks: 0
+  tool_errors: 0
+  cost_usd: 0.0224
+  cost_per_app: 0.0022
+  median_latency_s: 11.395
+  tool_calls_per_app: 9.6
+  server_refusals: 0 []

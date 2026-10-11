@@ -1,0 +1,13 @@
+{
+ "label": "holdout/haiku-r2",
+ "set": "holdout",
+ "model": "anthropic/claude-haiku-5.5",
+ "backend": "openrouter",
+ "apps": 10,
+ "wall_s": 27.8,
+ "cost_usd": 0.0229,
+ "tool_calls": 96,
+ "tool_errors": 0,
+ "fallbacks": 0,
+ "median_latency_s": 11.81
+}

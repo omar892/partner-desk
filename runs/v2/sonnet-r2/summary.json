@@ -1,0 +1,12 @@
+{
+ "label": "v2/sonnet-r2",
+ "model": "anthropic/claude-sonnet-5.5",
+ "backend": "openrouter",
+ "apps": 22,
+ "wall_s": 79.7,
+ "cost_usd": 0.9154,
+ "tool_calls": 233,
+ "tool_errors": 0,
+ "fallbacks": 0,
+ "median_latency_s": 16.34
+}

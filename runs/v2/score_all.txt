@@ -1,0 +1,116 @@
+
+== v2/haiku-r1 (anthropic/claude-haiku-5.5)
+  route_accuracy: 1.0
+  fully_correct: 21
+  unsafe_approvals: []
+  wrong_tier_placements: []
+  missed_escalations: []
+  over_escalations: []
+  flag_recall: 0.947
+  recommended_tier_accuracy: 1.0
+  drafts_correct: 11/11
+  stray_drafts: []
+  fallbacks: 0
+  tool_errors: 0
+  cost_usd: 0.0542
+  cost_per_app: 0.0025
+  median_latency_s: 11.835
+  tool_calls_per_app: 10.6
+  server_refusals: 1 [('APP-1011', "unknown flags ['non_domain_excluded_placeholder']; allowed: ['agent_incomplete', 'attribut")]
+  ✗ APP-1005 Only public story is a 404: missing ['reference_unreachable']
+
+== v2/haiku-r2 (anthropic/claude-haiku-5.5)
+  route_accuracy: 1.0
+  fully_correct: 21
+  unsafe_approvals: []
+  wrong_tier_placements: []
+  missed_escalations: []
+  over_escalations: []
+  flag_recall: 0.947
+  recommended_tier_accuracy: 1.0
+  drafts_correct: 11/11
+  stray_drafts: []
+  fallbacks: 0
+  tool_errors: 0
+  cost_usd: 0.0534
+  cost_per_app: 0.0024
+  median_latency_s: 11.45
+  tool_calls_per_app: 10.6
+  server_refusals: 0 []
+  ✗ APP-1005 Only public story is a 404: missing ['reference_unreachable']
+
+== v2/haiku-r3 (anthropic/claude-haiku-5.5)
+  route_accuracy: 1.0
+  fully_correct: 22
+  unsafe_approvals: []
+  wrong_tier_placements: []
+  missed_escalations: []
+  over_escalations: []
+  flag_recall: 1.0
+  recommended_tier_accuracy: 1.0
+  drafts_correct: 11/11
+  stray_drafts: []
+  fallbacks: 0
+  tool_errors: 0
+  cost_usd: 0.052
+  cost_per_app: 0.0024
+  median_latency_s: 11.41
+  tool_calls_per_app: 10.6
+  server_refusals: 0 []
+
+== v2/sonnet-r1 (anthropic/claude-sonnet-5.5)
+  route_accuracy: 1.0
+  fully_correct: 22
+  unsafe_approvals: []
+  wrong_tier_placements: []
+  missed_escalations: []
+  over_escalations: []
+  flag_recall: 1.0
+  recommended_tier_accuracy: 1.0
+  drafts_correct: 11/11
+  stray_drafts: []
+  fallbacks: 0
+  tool_errors: 0
+  cost_usd: 0.9327
+  cost_per_app: 0.0424
+  median_latency_s: 16.85
+  tool_calls_per_app: 10.5
+  server_refusals: 0 []
+
+== v2/sonnet-r2 (anthropic/claude-sonnet-5.5)
+  route_accuracy: 1.0
+  fully_correct: 22
+  unsafe_approvals: []
+  wrong_tier_placements: []
+  missed_escalations: []
+  over_escalations: []
+  flag_recall: 1.0
+  recommended_tier_accuracy: 1.0
+  drafts_correct: 11/11
+  stray_drafts: []
+  fallbacks: 0
+  tool_errors: 0
+  cost_usd: 0.9154
+  cost_per_app: 0.0416
+  median_latency_s: 16.259999999999998
+  tool_calls_per_app: 10.6
+  server_refusals: 0 []
+
+== v2/sonnet-r3 (anthropic/claude-sonnet-5.5)
+  route_accuracy: 1.0
+  fully_correct: 22
+  unsafe_approvals: []
+  wrong_tier_placements: []
+  missed_escalations: []
+  over_escalations: []
+  flag_recall: 1.0
+  recommended_tier_accuracy: 1.0
+  drafts_correct: 11/11
+  stray_drafts: []
+  fallbacks: 0
+  tool_errors: 0
+  cost_usd: 0.9194
+  cost_per_app: 0.0418
+  median_latency_s: 15.19
+  tool_calls_per_app: 10.6
+  server_refusals: 0 []
